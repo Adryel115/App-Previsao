@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 200%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(89, 182, 219);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-maior{
+    background-color: rgb(74, 141, 180);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+input {
+    outline: none;
+}
+.caixa-pequena{
+    display: flex;
+    align-items: center;
+}
+
+.previsao{
+    text-transform: capitalize;
+}
